@@ -10,15 +10,15 @@
             font-family: 'Arial', sans-serif;
             background-color: #f4f4f4;
             text-align: center;
-            margin: 50px;
+            margin: 60px;
         }
 
         h1 {
-            color: #555;
+            color: #666;
         }
 
         p {
-            color: #999;
+            color: #888;
         }
     </style>
 </head>
