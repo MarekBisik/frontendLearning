@@ -8,17 +8,19 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
+            background-color: #add8e6;
             text-align: center;
             margin: 60px;
+            color: #333;
         }
  
         h1 {
-            color: #9199;
+            color: #1e90ff;
         }
 
         p {
-            color: #888;
+            color: #696969;
+            font-size: 18px;
         }
 
         input[type="checkbox"] {
@@ -26,7 +28,17 @@
         }
 
         label {
-            color: #555;
+            color: #4b0082;
+            font-weight: bold;
+        }
+
+        input[type="checkbox"] {
+            box-shadow: 0 0 5px #888;
+        }
+
+        input[type="checkbox"]:checked + label {
+            background-color: #ffd700; 
+            padding: 5px;
         }
     </style>
 </head>
